@@ -1,0 +1,12 @@
+# Dependencies
+# Ignore the main Node.js dependency folder
+node_modules/
+
+# Environment Variables
+.env
+.env.development.local
+
+# Build and Distribution Folders
+/dist
+/build
+/out

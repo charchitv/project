@@ -1,0 +1,31 @@
+{
+  "name": "stage",
+  "version": "1.0.0",
+  "description": "stage ott assignment",
+  "keywords": [
+    "stage"
+  ],
+  "license": "ISC",
+  "author": "charchit",
+  "type": "module",
+  "main": "src/server.ts",
+  "scripts": {
+    "start" : "node --loader ts-node/esm src/server.ts",
+    "seed": "node --loader ts-node/esm src/seeder/seed.ts",
+    "start:dev": "node --loader ts-node/esm src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "joi": "^18.0.2",
+    "mongoose": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
