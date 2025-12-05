@@ -31,13 +31,19 @@ You need the following installed locally:
 ### 1. Installation
 
 Clone the repository and install dependencies:
-
-sample .env file variables 
-PORT=4000
-MONGODB_URI="mongodb+srv://<dbuser>:<password>@cluster.mongodb.net/?appName=Cluster0"
-MOCK_USER_ID="user-abc-123"
-
 ```bash
 git clone <YOUR_REPOSITORY_URL>
 cd my-list-backend
 npm install
+```
+
+
+sample .env file variables 
+
+```bash
+PORT=4000
+MONGODB_URI="mongodb+srv://<dbuser>:<password>@cluster.mongodb.net/?appName=Cluster0"
+MOCK_USER_ID="user-abc-123"
+```
+
+
